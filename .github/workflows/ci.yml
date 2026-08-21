@@ -9,6 +9,6 @@ jobs:
         with:
           python-version: '3.9'
       - name: Compile check
-        run: python3 -m py_compile Git_Warden.py
+        run: python3 -m py_compile git_warden.py
       - name: Smoke test (--help)
-        run: python3 Git_Warden.py --help
+        run: python3 git_warden.py --help
